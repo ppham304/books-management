@@ -14,6 +14,7 @@ class App extends Component {
           <Router>
             <Switch>
               <Route path="/home" component={Home} />
+              <Redirect to={{pathname: "/home"}} />
             </Switch>
           </Router>
         </div>
